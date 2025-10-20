@@ -9,7 +9,7 @@ export default defineConfig(() => {
     
   return {
     plugins: [react()],
-    base,
+    base: "https://github.com/fatmaabeyaz/fatmaebeyaz-Challenge",
     build: {
       outDir: "dist",
       assetsDir: "assets",
